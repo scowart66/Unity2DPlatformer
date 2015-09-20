@@ -15,4 +15,12 @@ public class Bullet : MonoBehaviour {
 		if (Mathf.Abs (transform.position.x) > distance)
 			Destroy (gameObject);
 	}
+
+    void OnCollisionEnter2D(Collision2D target)
+    {
+        if (target.gameObject.layer == LayerMask.NameToLayer("Solid"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
