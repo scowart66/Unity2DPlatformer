@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity2DPlatformer.CSharp", "Unity2DPlatformer.CSharp.csproj", "{A50CCE8E-5A81-03B1-938E-6FAFD0129B9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity2DPlatformer.CSharp.Editor", "Unity2DPlatformer.CSharp.Editor.csproj", "{6986F253-07B6-BA76-9E31-7D4F0C21ED68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{A50CCE8E-5A81-03B1-938E-6FAFD0129B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A50CCE8E-5A81-03B1-938E-6FAFD0129B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A50CCE8E-5A81-03B1-938E-6FAFD0129B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6986F253-07B6-BA76-9E31-7D4F0C21ED68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6986F253-07B6-BA76-9E31-7D4F0C21ED68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6986F253-07B6-BA76-9E31-7D4F0C21ED68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6986F253-07B6-BA76-9E31-7D4F0C21ED68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
