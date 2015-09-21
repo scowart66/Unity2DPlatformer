@@ -7,6 +7,8 @@ public class TileMap : MonoBehaviour {
     public Vector2 tileSize = new Vector2();
     public Vector2 gridSize;
     public Sprite currentTileBrush;
+    public GameObject tiles;
+    public bool boxCollider;
 	// Use this for initialization
 	void Start () {
 	
